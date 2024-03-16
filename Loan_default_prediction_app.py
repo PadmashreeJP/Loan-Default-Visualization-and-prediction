@@ -2,7 +2,7 @@ import streamlit as st
 import joblib
 
 # Load the model from the pickle file
-model = joblib.load(r'C:\\Users\\Padmashree\\Documents\\DADS\\Data science\\Final project\\logreg_model.pkl')
+model = joblib.load(r'logreg_model.pkl')
 
 # Streamlit UI
 st.title('Loan Defaulters Prediction')
